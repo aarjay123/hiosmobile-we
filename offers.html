@@ -7,42 +7,64 @@
 		<link rel="stylesheet" href="css\style.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
 		<title>HiOS | Offers</title>
+		<script>
+			function skipButton() {
+				document.getElementById('offerAdvert').style.display = "none";  //empty the value
+				document.getElementById('mainOfferContent').style.display = "block";
+			}
+		</script>
 	</head><br>
 	<body>
-	<br>
-		<center><h1><u>Offers</u></h1><br>
-			<img src="icons/offers.png" width="100"><br>
-					<p id="para">Take a look at the offers below for everything related to The Highland Cafe(tm)!<br></p><br>
-						<div class="row">
-							<div class="column"><p class="textBlue">Blue</p></div>
-							<div class="column"><p class="textWhite"> = Available</p></div>
-						</div>
-						<div class="row">
-							<div class="column"><p class="textRed">Red</p></div>
-							<div class="column"><p class="textWhite"> = Expired</p></div>
-						</div>
+	<br><div id="mainOfferContent">
+			<center><h1><u>Offers</u></h1><br>
+				<img src="icons/offers.png" width="100"><br>
+						<p id="para">Take a look at the offers below for everything related to The Highland Cafe(tm)!<br></p><br>
+							<div class="row">
+								<div class="column"><p class="textBlue">Blue</p></div>
+								<div class="column"><p class="textWhite"> = Available</p></div>
+							</div>
+							<div class="row">
+								<div class="column"><p class="textRed">Red</p></div>
+								<div class="column"><p class="textWhite"> = Expired</p></div>
+							</div>
+				<br>
+				<div class="offerBox">
+					<p class="offerDate">Posted on 02/01/2022, 22:10</p>
+					<p class="offerHeadings">2022 special breakfast Food Deal!</p>
+					<p class="offerBody">On this New Year 2022, make this year special, with a free cereal of choice in our restaurant, if you buy 7 cans of Highland Cola Xtreme! Don't miss out though!</p>
+					<p class="offerExpiry">*Offer expires January 5st 2022 @ 23:59</p>
+				</div>
+				<br>
+				<div class="offerBoxExpired">
+					<p class="offerDate">Posted on 27/12/2021, 10:28</p>
+					<p class="offerHeadings">Nibbles at Twixmas</p>
+					<p class="offerBody">On this Twixmas 2021, make this year special, with €20 off when you spend €250 in our restaurant! Don't miss out though!</p>
+					<p class="offerExpiry">*Offer expires December 31st 2021 @ 23:59</p>
+				</div>
 			<br>
-			<div class=offerBox>
-				<p class="offerDate">Posted on 02/01/2022, 22:10</p>
-				<p class="offerHeadings">2022 special breakfast Food Deal!</p>
-				<p class="offerBody">On this New Year 2022, make this year special, with a free cereal of choice in our restaurant, if you buy 7 cans of Highland Cola Xtreme! Don't miss out though!</p>
-				<p class="offerExpiry">*Offer expires January 5st 2022 @ 23:59</p>
+				<div class="offerBoxExpired">
+					<p class="offerDate">Posted on 21/12/2021, 20:53</p>
+					<p class="offerHeadings">Advent Special Food Deal!</p>
+					<p class="offerBody">On this run up to Christmas 2021, make this year special, with €0.20 off when you spend €200 in our restaurant! Don't miss out though!</p>
+					<p class="offerExpiry">*Offer expires December 24th 2021 @ 23:59</p>
+				</div>
+		</div>
+		<div id="offerAdvert">
+			<center>
+			<div class="offerAdvertBox">
+				<p><span id="more-477130"></span><ins class="adsbygoogle author_ad" style="display: block; height: 280px;" data-ad-host="ca-host-pub-5506057612223327" data-ad-client="ca-pub-7114551592991368" data-ad-format="auto" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" style="border: none; height: 260px; width: 320px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="border: none; height: 280px; width: 336px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:336px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7114551592991368&amp;output=html&amp;h=280&amp;adk=466652548&amp;adf=2529329910&amp;w=336&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1642517735&amp;rafmt=1&amp;psa=0&amp;format=336x280&amp;url=https%3A%2F%2F9to5google.com%2F2022%2F01%2F12%2Fandroid-12l-beta-2-new-features%2F&amp;flash=0&amp;host=ca-host-pub-5506057612223327&amp;fwr=0&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiOTcuMC40NjkyLjcxIixbXSxudWxsLG51bGwsIjY0Il0.&amp;dt=1642517734872&amp;bpp=3&amp;bdt=508&amp;idt=400&amp;shv=r20220112&amp;mjsv=m202201100101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D73725d4cb0304de7%3AT%3D1642517735%3AS%3DALNI_MY3caZO4KDNKzV8QCm7_QP_ZKlvtQ&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=1258050370587&amp;frm=20&amp;pv=1&amp;ga_vid=1201019344.1642517735&amp;ga_sid=1642517735&amp;ga_hid=251469801&amp;ga_fc=1&amp;u_tz=0&amp;u_his=3&amp;u_h=1024&amp;u_w=1280&amp;u_ah=984&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=776&amp;ady=1315&amp;biw=1263&amp;bih=913&amp;scr_x=0&amp;scr_y=0&amp;eid=44750774%2C44753740%2C31064080%2C31064092%2C21067496&amp;oid=2&amp;pvsid=2604658015711586&amp;pem=872&amp;tmod=832&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;eae=0&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C984%2C1280%2C913&amp;vis=1&amp;rsz=%7C%7ClEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=2&amp;uci=a!2&amp;btvi=1&amp;fsb=1&amp;xpc=hYPCUkXHpN&amp;p=https%3A//9to5google.com&amp;dtd=404" data-google-container-id="a!2" data-google-query-id="CMaynrHHu_UCFSaT7QodFYkKmA" data-load-complete="true"></iframe></ins></ins></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</p><br>
+				<button onclick="skipButton()" id="offerExitButton">X</button>
+			</center>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 			</div>
-			<br>
-			<div class=offerBoxExpired>
-				<p class="offerDate">Posted on 27/12/2021, 10:28</p>
-				<p class="offerHeadings">Nibbles at Twixmas</p>
-				<p class="offerBody">On this Twixmas 2021, make this year special, with €20 off when you spend €250 in our restaurant! Don't miss out though!</p>
-				<p class="offerExpiry">*Offer expires December 31st 2021 @ 23:59</p>
-			</div>
-		<br>
-			<div class=offerBoxExpired>
-				<p class="offerDate">Posted on 21/12/2021, 20:53</p>
-				<p class="offerHeadings">Advent Special Food Deal!</p>
-				<p class="offerBody">On this run up to Christmas 2021, make this year special, with €0.20 off when you spend €200 in our restaurant! Don't miss out though!</p>
-				<p class="offerExpiry">*Offer expires December 24th 2021 @ 23:59</p>
-			</div>
+		</div>
 		<br><br>
+		<center>
 		<p id="smallpara">Copyright © The Highland Cafe(tm) Ltd. 2021. All Rights Reserved.</p></center>
+		</center>
 	</body>
 </html>
