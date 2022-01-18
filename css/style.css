@@ -1,8 +1,8 @@
 html {
 	/*background-color: #FCFCFF;*/
-	background-color: black;
+	background-color: #06170e;
 	font-family: 'Outfit', sans-serif;
-	color: #001D33;
+	color: white;
 }
 
 .navButton {
@@ -67,12 +67,12 @@ html {
 	font-family: 'Courier Prime', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   html {
     background-color: black;
     color: #FCFCFF;
   }
-}
+}*/
 
 #infoText {
 	font-family: 'Courier Prime', monospace;
