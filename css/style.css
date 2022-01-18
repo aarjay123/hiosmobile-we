@@ -149,3 +149,21 @@ html {
 	color: orange;
   } /* Black */
 }
+
+#mainOfferContent {
+	display: none;
+}
+
+#offerAdvert {
+	display: block;
+}
+
+#offerExitButton {
+	height:20px;
+    width:20px;
+	font-size: 10px;
+	background-color: grey;
+	color: white;
+	border-radius: 3px;
+	border: none;
+}
