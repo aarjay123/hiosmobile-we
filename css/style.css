@@ -176,3 +176,7 @@ html {
 	padding: 10px;
 	width: 350px;
 }
+
+.blurredPage {
+	filter:blur(3px);
+}
