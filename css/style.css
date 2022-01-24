@@ -82,6 +82,7 @@ html {
 #homeheading {
 	font-size: 40px;
 	animation: pulse 15s infinite;
+	font-family: "Audiowide", sans-serif;
 }
 
 #p11 {
