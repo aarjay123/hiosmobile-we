@@ -181,3 +181,11 @@ font-family: "Audiowide", sans-serif;
 .blurredPage {
 	filter:blur(3px);
 }
+
+#homemessagediv {
+	position: absolute;
+	border-radius: 25px;
+	background: yellow;
+	padding: 10px;
+	width: 350px;
+}
