@@ -1,4 +1,4 @@
-# HiOS Mobile by The Highland Cafe(tm)
+# HiOS Mobile Worst Eastern by The Highland Cafe(tm)
 
 <h2>Hello there!</h2>
 Welcome to the source code for the web part of the HiOS Mobile mobile app!
